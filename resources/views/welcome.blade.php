@@ -33,8 +33,12 @@
                 </table>
             </div>
         @else
+        <div align="center">
             <div class="card-body">
-                <h3>You need to log in. <a href="/login">Click here to login</a></h3>
+                <h3>To-Do Application</h3><br>
+                <img src="/img/logo.png" hight=200 width=200>
+               <h3><a href="/login">login</a> to create your own to-do list</h3>
+            </div>
             </div>
         @endif
     </div>                         
